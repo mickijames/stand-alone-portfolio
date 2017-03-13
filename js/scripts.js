@@ -1,1 +1,5 @@
-// YOUR SCRIPTS GO HERE
+// Activate Light Gallery
+$('figure').lightGallery({
+    selector: 'a',
+    thumbnail: true
+});
