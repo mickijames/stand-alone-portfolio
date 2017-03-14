@@ -16,7 +16,7 @@ body {
 }
 
 a img {
-    height: 200px;
+    width: 15%;
     padding: .5em;
     border-radius: 20px;
 }
@@ -24,11 +24,9 @@ a img {
 main {
     display: flex;
     flex-flow: wrap;
+    flex-grow: 1;
 }
 
-figure {
-    width: 500px;
-}
 
 figcaption {
     margin: .5em;
