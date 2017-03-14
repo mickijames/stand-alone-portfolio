@@ -6,6 +6,11 @@
 YOUR STYLES
 *******************/
 
+$primary-blue: #385a65;
+$purple: #816565;
+$orange: #ed852d;
+
+
 body {
     background: red;
 }
@@ -31,11 +36,12 @@ figcaption {
 }
 
 .lg-backdrop {
-    background: #111;
+    background: darken($primary-blue, 25%);
 }
 
 .lg-sub-html, .lg-toolbar {
-    background: #385a65;
+    background: $primary-blue;
+    opacity: .65;
 }
 
 .lg-sub-html {
