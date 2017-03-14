@@ -1,6 +1,6 @@
 @import 'lg-transitions.min';
 @import 'lightgallery.min';
-@import 'queries';
+@import 'media-queries';
 
 /********************
 YOUR STYLES
@@ -13,6 +13,7 @@ body {
 a img {
     height: 200px;
     padding: .5em;
+    border-radius: 20px;
 }
 
 main {
