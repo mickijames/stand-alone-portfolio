@@ -8,15 +8,15 @@ YOUR STYLES
 
 $primary-color: #385a65;
 $primary-dark: rgba(11, 17, 19, 0.95);
-$purple: #816565;
-$orange: #ed852d;
+$second: #fff;
+$third: #ed852d;
 
 body {
     background: url(../img/dark_wood.png);
 }
 
 h1 {
-    color: #fff;
+    color: $second;
     font-size: 2.5em;
     font-family: 'Great Vibes', cursive;
     margin: .8em;
@@ -26,7 +26,7 @@ h1 {
 figcaption {
     text-align: center;
     font-size: 1.2em;
-    color: #fff;
+    color: $second;
     margin: .5em;
 }
 
@@ -48,22 +48,37 @@ figcaption {
 }
 
 .lg-sub-html {
-    color: #fff;
+    color: $second;
 }
 
-.lg-toolbar .lg-icon {
-    padding: .25em 1em;
-}
-
-.lg-toolbar .lg-icon, 
-.lg-counter {
-    font-size: 1.25em;
-    height: 1.65em;
+.lg-toolbar {
+    .lg-icon {
+        padding: .25em 1em;
+        color: $third;
+    }
+    
+    .lg-icon, 
+    .lg-counter {
+        font-size: 1.25em;
+        height: 1.65em;
+    }
+    
+    #lg-counter{
+        color: $third;
+    }
 }
 
 .lg-actions .lg-next, 
 .lg-actions .lg-prev {
     background-color: rgba(255, 255, 255, 0);
+    color: $second;
     font-size: 2em;
     padding: 1em .6em 1em 1em;
+}
+
+.lg-outer .lg-toogle-thumb {
+    background-color: $primary-dark;
+    color: $second;
+    font-size: 2em;
+    height: 1.25em;
 }
