@@ -7,12 +7,12 @@ YOUR STYLES
 *******************/
 
 $primary-color: #385a65;
-$primary-dark: darken($primary-color, 25%);
+$primary-dark: rgba(11, 17, 19, 0.95);
 $purple: #816565;
 $orange: #ed852d;
 
 body {
-    background: #0b0b0b;
+    background: url(../img/dark_wood.png);
 }
 
 figcaption {
@@ -25,6 +25,7 @@ figcaption {
 // Gallery Styling
 .lg-backdrop {
     background: $primary-dark;
+    opacity: .95;
 }
 
 .lg-sub-html, 
