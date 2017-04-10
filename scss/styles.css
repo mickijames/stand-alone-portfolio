@@ -1836,7 +1836,7 @@ MEDIA QUERIES
     main figure {
       margin: 1em 0 0 2em; }
     main figcaption {
-      text-align: left; }
+      font-size: .9em; }
   .lg-sub-html {
     font-size: .9em;
     padding: 8px 40px; }
@@ -1862,13 +1862,12 @@ MEDIA QUERIES
     width: 16em;
     margin: .5em; }
   figure figcaption {
-    text-align: center; } }
+    text-align: center;
+    font-size: 1.25em; }
+  .lg-sub-html {
+    font-size: 1.25em; } }
 
 /* Desktop: 1280px = 80em */
-@media screen and (min-width: 80em) {
-  figure figcaption {
-    font-size: .9em; } }
-
 /* 4k/TV */
 @media screen and (min-width: 120em) {
   body {
@@ -1893,6 +1892,9 @@ YOUR STYLES
 body {
   background: url(../img/mountain-sunset.jpg) center/cover no-repeat; }
 
+figure {
+  margin: 1em 0; }
+
 h1 {
   color: #fff;
   font-size: 2.5em;
@@ -1900,14 +1902,14 @@ h1 {
   margin: .8em 0 0;
   text-align: center; }
 
-figure {
-  margin: 1em 0; }
-
 figcaption {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: #fff;
   margin: .5em; }
+
+figcaption, .lg-sub-html {
+  font-family: 'Cormorant Garamond', serif; }
 
 .lg-backdrop {
   background: rgba(11, 17, 19, 0.95);
@@ -1919,11 +1921,8 @@ figcaption {
   opacity: .65; }
 
 .lg-sub-html {
-  font-size: .9em;
+  color: #fff;
   padding: 8px 40px; }
-
-.lg-sub-html {
-  color: #fff; }
 
 .lg-toolbar .lg-icon {
   padding: .25em 1em;
