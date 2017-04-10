@@ -1833,6 +1833,8 @@ MEDIA QUERIES
       width: 40%;
       padding: .5em;
       border-radius: 20px; }
+    main figure {
+      margin: 1em 0 0 2em; }
     main figcaption {
       text-align: left; }
   .lg-sub-html {
@@ -1850,6 +1852,8 @@ MEDIA QUERIES
 
 /* Tablet:  768px = 160em */
 @media screen and (min-width: 48em) {
+  body aside nav {
+    left: 2em; }
   figure section {
     display: flex;
     flex-flow: row wrap;
@@ -1865,6 +1869,24 @@ MEDIA QUERIES
   figure figcaption {
     font-size: .9em; } }
 
+/* 4k/TV */
+@media screen and (min-width: 120em) {
+  body {
+    padding: 0 20%; }
+    body h1 {
+      font-size: 3.5em; }
+    body figure {
+      padding: 2.5em 0; }
+      body figure a img {
+        width: 20em; }
+    body figcaption, body .lg-sub-html {
+      font-size: 1.75em; }
+    body aside nav {
+      padding: 0;
+      left: -2em; }
+    body nav a {
+      font-size: 1.5em; } }
+
 /********************
 YOUR STYLES
 *******************/
@@ -1879,7 +1901,7 @@ h1 {
   text-align: center; }
 
 figure {
-  margin: 1em 0 3em; }
+  margin: 1em 0; }
 
 figcaption {
   text-align: center;

@@ -13,6 +13,10 @@ MEDIA QUERIES
             border-radius: 20px;
         }
         
+        figure {
+            margin: 1em 0 0 2em;
+        }
+        
         figcaption {
             text-align: left;
         }
@@ -41,6 +45,10 @@ MEDIA QUERIES
 /* Tablet:  768px = 160em */
 @media screen and (min-width: 48em)  {
     
+    body aside nav {
+        left: 2em;
+    }
+    
     figure {
         
         section {
@@ -66,6 +74,41 @@ MEDIA QUERIES
     
     figure figcaption {
         font-size: .9em;
+    }
+
+}
+
+/* 4k/TV */
+@media screen and (min-width: 120em) { 
+    
+     body {
+        padding: 0 20%;
+         
+         h1 {
+             font-size: 3.5em;
+         }
+         
+         figure {
+             padding: 2.5em 0;
+             
+             a img {
+                 width: 20em;
+             }
+         } 
+         
+         figcaption, .lg-sub-html {
+             font-size: 1.75em;
+         }
+         
+         aside nav {
+             padding: 0;
+             left: -2em;
+         }
+         
+         nav a {
+             font-size: 1.5em;
+         }
+        
     }
 
 }
