@@ -1,5 +1,12 @@
+$primary-color: #fff;
+$second-color: #ed852d;
+$blue: #385a65;
+$yellow: #f7d26d;
+$purple: #816565;
+
 @import 'lg-transitions.min';
 @import 'lightgallery.min';
+@import 'nav';
 @import 'media-queries';
 
 /********************
@@ -12,7 +19,7 @@ $second: #fff;
 $third: #ed852d;
 
 body {
-    background: url(../img/dark_wood.png);
+    background: url(../img/mountain-sunset.jpg) center / cover no-repeat;
 }
 
 h1 {
